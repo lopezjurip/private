@@ -1,0 +1,108 @@
+\documentclass[10pt]{extarticle}
+
+%Paquetes utilizados en esta tarea
+\usepackage{logo}
+\usepackage{fullpage}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage[hidelinks]{hyperref}
+\usepackage{algorithmic}
+\usepackage[nothing]{algorithm}
+
+%Definiciones de comandos, para reutilizar secuencias frecuentes o ahorrar
+% c�digo
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\lb}{\\~\\}
+\newcommand{\la}{\leftarrow}
+
+\newcommand{\twopartdef}[4]
+{
+	\left\{
+		\begin{array}{ll}
+			#1 &  \text{si }#2 \\
+			#3 &  \text{si }#4
+		\end{array}
+	\right.
+}
+
+\newcommand{\threepartdef}[6]
+{
+	\left\{
+		\begin{array}{ll}
+			#1 &  \text{si }#2 \\
+			#3 &  \text{si }#4 \\
+			#5 &  \text{si }#6
+		\end{array}
+	\right.
+}
+
+\makeatletter
+
+\makeatother
+
+\begin{document}
+
+\begin{tabular}{ccl}
+\begin{tabular}{c}
+\psfig{file=puclogo.eps}
+\end{tabular}
+&\ \ \ &
+\begin{tabular}{l}
+PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE\\
+ESCUELA DE INGENIERÍA\\
+DEPARTAMENTO DE CIENCIA DE LA COMPUTACIÓN
+\end{tabular}
+\end{tabular}
+
+\begin{center}
+\bf IIC2233 - Programación Avanzada\\
+\bf \begin{math}2^{\circ}\end{math} semestre 2015
+
+\vspace{0.5cm}
+
+\bf {\Huge Actividad XX}
+\end{center}
+
+\section*{Nombre Materia}
+
+\subsection*{Instrucciones}
+
+Introducción, descripción e instrucciones a grandes rasgos de la actividad.
+
+
+\subsection*{Requerimientos}
+
+\begin{itemize}
+    \item Aquí va lo que se debe cumplir (puntualmente) en esta actividad
+\end{itemize}
+
+
+\subsection*{Notas}
+
+\begin{itemize}
+    \item OPCIONAL
+    \item Comentarios y/o restricciones adicionales
+\end{itemize}
+
+
+\subsection*{To - DO}
+\begin{itemize}
+    \item (2.00 pts) Distribución de puntaje
+    \item (2.50 pts) Pueden ser fracciones de puntaje y deben sumar 6.00 pts en total.
+    \item (1.50 pts) Estos deben estar reflejados en el FEEDBACK.md
+\end{itemize}
+
+
+\subsection*{Tips}
+
+\begin{itemize}
+    \item OPCIONAL
+    \item Sección para ayudas que guíen el desarrollo de la actividad.
+\end{itemize}
+
+
+\end{document}
